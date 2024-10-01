@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-CONNECTION_STRING = "mongodb+srv://hassanafnan09:admin@afnan.h0gs1ih.mongodb.net/";
 const connectDB = async (CONNECTION_STRING) => {
     try {
         const connect = await mongoose.connect(CONNECTION_STRING);
